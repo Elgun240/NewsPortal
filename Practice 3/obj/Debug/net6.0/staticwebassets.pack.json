@@ -1,0 +1,1681 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice 3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Practice 3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\add-category.html",
+      "PackagePath": "staticwebassets\\admin\\add-category.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\add-post.html",
+      "PackagePath": "staticwebassets\\admin\\add-post.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\add-subcategory.html",
+      "PackagePath": "staticwebassets\\admin\\add-subcategory.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\components.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\components.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\icons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\menu.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\menu_sm.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\menu_sm.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\pages.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\pages.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\css\\typicons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\typicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\typicons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\typicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\typicons.less",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\typicons.less"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\typicons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\typicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\typicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\typicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\fonts\\typicons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\typicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\about.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\about.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\accept_database.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\accept_database.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\add_column.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\add_column.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\add_database.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\add_database.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\add_image.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\add_image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\add_row.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\add_row.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\address_book.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\address_book.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\advance.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\advance.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\advertising.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\advertising.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\alarm_clock.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\alarm_clock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\alphabetical_sorting_az.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\alphabetical_sorting_az.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\alphabetical_sorting_za.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\alphabetical_sorting_za.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\answers.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\answers.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\approval.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\approval.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\approve.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\approve.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\area_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\area_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\assistant.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\assistant.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\audio_file.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\audio_file.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\automatic.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\automatic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\automotive.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\automotive.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\bad_decision.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\bad_decision.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\bar_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\bar_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\bearish.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\bearish.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\binoculars.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\binoculars.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\biohazard.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\biohazard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\biomass.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\biomass.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\biotech.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\biotech.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\bookmark.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\bookmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\briefcase.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\briefcase.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\broken_link.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\broken_link.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\bullish.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\bullish.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\business.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\business.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\business_contact.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\business_contact.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\businessman.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\businessman.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\businesswoman.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\businesswoman.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\butting_in.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\butting_in.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\cable_release.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\cable_release.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\calculator.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\calculator.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\call_transfer.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\call_transfer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\callback.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\callback.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\camcorder.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\camcorder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\camcorder_pro.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\camcorder_pro.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\camera.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\camera_addon.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\camera_addon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\camera_identification.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\camera_identification.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\cancel.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\cancel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\candle_sticks.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\candle_sticks.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\capacitor.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\capacitor.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\cell_phone.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\cell_phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\charge_battery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\charge_battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\checkmark.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\checkmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\circuit.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\circuit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\clapperboard.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\clapperboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\clear_filters.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\clear_filters.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\clock.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\clock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\close_up_mode.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\close_up_mode.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\cloth.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\cloth.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\collaboration.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\collaboration.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\collapse.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\collapse.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\collect.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\collect.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\combo_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\combo_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\comments.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\comments.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\compact_camera.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\compact_camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\conference_call.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\conference_call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\contacts.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\contacts.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\copyleft.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\copyleft.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\copyright.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\copyright.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\crystal_oscillator.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\crystal_oscillator.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\currency_exchange.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\currency_exchange.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\cursor.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\cursor.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\customer_support.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\customer_support.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\dam.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\dam.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\data_backup.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\data_backup.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\data_configuration.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\data_configuration.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\data_encryption.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\data_encryption.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\data_protection.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\data_protection.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\data_recovery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\data_recovery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\data_sheet.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\data_sheet.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\database.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\database.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\debt.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\debt.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\decision.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\decision.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\delete_column.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\delete_column.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\delete_database.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\delete_database.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\delete_row.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\delete_row.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\department.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\department.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\deployment.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\deployment.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\diploma_1.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\diploma_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\diploma_2.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\diploma_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\disapprove.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\disapprove.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\disclaimer.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\disclaimer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\dislike.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\dislike.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\display.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\display.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\do_not_inhale.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\do_not_inhale.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\do_not_insert.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\do_not_insert.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\do_not_mix.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\do_not_mix.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\document.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\document.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\donate.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\donate.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\doughnut_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\doughnut_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\down.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\down_left.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\down_left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\down_right.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\down_right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\download.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\download.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\edit_image.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\edit_image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\electrical_sensor.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\electrical_sensor.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\electrical_threshold.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\electrical_threshold.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\electricity.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\electricity.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\electro_devices.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\electro_devices.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\electronics.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\electronics.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\empty_battery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\empty_battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\empty_filter.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\empty_filter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\empty_trash.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\empty_trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\end_call.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\end_call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\engineering.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\engineering.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\entering_heaven_alive.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\entering_heaven_alive.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\expand.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\expand.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\expired.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\expired.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\export.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\export.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\external.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\external.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\factory.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\factory.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\factory_breakdown.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\factory_breakdown.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\faq.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\faq.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\feed_in.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\feed_in.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\feedback.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\feedback.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\file.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\file.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\filing_cabinet.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\filing_cabinet.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\filled_filter.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\filled_filter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\film.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\film.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\film_reel.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\film_reel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\fine_print.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\fine_print.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\flash_auto.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\flash_auto.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\flash_off.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\flash_off.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\flash_on.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\flash_on.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\flow_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\flow_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\folder.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\folder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\frame.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\frame.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\full_battery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\full_battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\full_trash.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\full_trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\gallery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\gallery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\genealogy.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\genealogy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\generic_sorting_asc.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\generic_sorting_asc.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\generic_sorting_desc.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\generic_sorting_desc.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\globe.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\globe.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\good_decision.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\good_decision.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\graduation_cap.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\graduation_cap.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\grid.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\grid.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\headset.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\headset.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\heat_map.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\heat_map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\high_battery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\high_battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\high_priority.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\high_priority.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\home.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\icons8_cup.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\icons8_cup.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\idea.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\idea.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\image_file.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\image_file.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\import.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\import.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\in_transit.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\in_transit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\info.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\info.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\inspection.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\inspection.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\integrated_webcam.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\integrated_webcam.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\internal.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\internal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\invite.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\invite.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\ipad.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\ipad.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\iphone.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\iphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\key.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\key.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\kindle.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\kindle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\landscape.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\landscape.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\leave.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\leave.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\left.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\left_down.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\left_down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\left_down2.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\left_down2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\left_up.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\left_up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\left_up2.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\left_up2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\library.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\library.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\light_at_the_end_of_tunnel.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\light_at_the_end_of_tunnel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\like.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\like.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\like_placeholder.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\like_placeholder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\line_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\line_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\link.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\link.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\list.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\list.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\lock.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\lock_landscape.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\lock_landscape.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\lock_portrait.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\lock_portrait.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\low_battery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\low_battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\low_priority.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\low_priority.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\make_decision.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\make_decision.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\manager.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\manager.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\medium_priority.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\medium_priority.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\menu.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\middle_battery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\middle_battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\mind_map.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\mind_map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\minus.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\missed_call.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\missed_call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\mms.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\mms.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\money_transfer.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\money_transfer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\multiple_cameras.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\multiple_cameras.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\multiple_devices.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\multiple_devices.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\multiple_inputs.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\multiple_inputs.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\multiple_smartphones.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\multiple_smartphones.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\music.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\music.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\negative_dynamic.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\negative_dynamic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\neutral_decision.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\neutral_decision.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\neutral_trading.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\neutral_trading.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\news.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\news.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\next.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\next.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\night_landscape.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\night_landscape.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\night_portrait.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\night_portrait.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\no_idea.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\no_idea.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\no_video.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\no_video.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\nook.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\nook.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\numerical_sorting_12.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\numerical_sorting_12.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\numerical_sorting_21.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\numerical_sorting_21.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\ok.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\ok.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\old_time_camera.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\old_time_camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\online_support.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\online_support.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\opened_folder.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\opened_folder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\org_unit.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\org_unit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\organization.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\organization.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\overtime.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\overtime.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\package.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\package.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\paid.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\paid.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\panorama.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\panorama.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\parallel_tasks.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\parallel_tasks.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\phone.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\phone_android.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\phone_android.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\photo_reel.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\photo_reel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\picture.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\picture.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\pie_chart.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\pie_chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\planner.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\planner.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\plus.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\podium_with_audience.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\podium_with_audience.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\podium_with_speaker.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\podium_with_speaker.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\podium_without_speaker.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\podium_without_speaker.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\portrait_mode.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\portrait_mode.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\positive_dynamic.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\positive_dynamic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\previous.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\previous.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\print.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\print.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\privacy.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\privacy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\process.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\process.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\puzzle.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\puzzle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\questions.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\questions.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\radar_plot.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\radar_plot.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\rating.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\rating.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\ratings.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\ratings.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\reading.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\reading.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\reading_ebook.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\reading_ebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\redo.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\redo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\refresh.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\refresh.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\registered_trademark.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\registered_trademark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\remove_image.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\remove_image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\reuse.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\reuse.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\right.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\right_down.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\right_down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\right_down2.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\right_down2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\right_up.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\right_up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\right_up2.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\right_up2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\rotate_camera.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\rotate_camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\rotate_to_landscape.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\rotate_to_landscape.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\rotate_to_portrait.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\rotate_to_portrait.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\ruler.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\ruler.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\rules.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\rules.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\safe.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\safe.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\sales_performance.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\sales_performance.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\scatter_plot.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\scatter_plot.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\search.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\self_service_kiosk.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\self_service_kiosk.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\selfie.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\selfie.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\serial_tasks.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\serial_tasks.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\service_mark.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\service_mark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\services.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\services.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\settings.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\share.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\share.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\shipped.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\shipped.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\shop.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\shop.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\signature.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\signature.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\sim_card.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\sim_card.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\sim_card_chip.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\sim_card_chip.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\slr_back_side.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\slr_back_side.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\smartphone_tablet.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\smartphone_tablet.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\sms.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\sms.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\sound_recording_copyright.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\sound_recording_copyright.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\speaker.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\speaker.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\sports_mode.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\sports_mode.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\stack_of_photos.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\stack_of_photos.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\start.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\start.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\statistics.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\statistics.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\support.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\support.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\survey.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\survey.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\switch_camera.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\switch_camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\synchronize.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\synchronize.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\tablet_android.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\tablet_android.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\template.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\template.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\timeline.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\timeline.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\todo_list.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\todo_list.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\touchscreen_smartphone.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\touchscreen_smartphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\trademark.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\trademark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\tree_structure.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\tree_structure.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\two_smartphones.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\two_smartphones.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\undo.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\undo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\unlock.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\unlock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\up.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\up_left.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\up_left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\up_right.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\up_right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\upload.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\upload.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\video_call.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\video_call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\video_file.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\video_file.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\video_projector.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\video_projector.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\view_details.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\view_details.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\vip.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\vip.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\voice_presentation.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\voice_presentation.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\voicemail.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\voicemail.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\webcam.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\webcam.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\icons\\workflow.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\icons\\workflow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\detect.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\detect.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\fastclick.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\fastclick.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\jquery.app.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.app.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.blockUI.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\jquery.core.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.core.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\jquery.scrollTo.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.scrollTo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\modernizr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\waves.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\waves.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\502647470c8b655c9b09538c550a3f3f.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\postimages\\502647470c8b655c9b09538c550a3f3f.png"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\e9482188df4e375c07ca396d000a3a27.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\postimages\\e9482188df4e375c07ca396d000a3a27.png"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\f5b25dad0b41995d2873e719b17e5864.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\postimages\\f5b25dad0b41995d2873e719b17e5864.png"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\change-image.html",
+      "PackagePath": "staticwebassets\\admin\\change-image.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\change-password.html",
+      "PackagePath": "staticwebassets\\admin\\change-password.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\dashboard.html",
+      "PackagePath": "staticwebassets\\admin\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\edit-category.html",
+      "PackagePath": "staticwebassets\\admin\\edit-category.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\edit-post.html",
+      "PackagePath": "staticwebassets\\admin\\edit-post.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\edit-subcategory.html",
+      "PackagePath": "staticwebassets\\admin\\edit-subcategory.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\index.html",
+      "PackagePath": "staticwebassets\\admin\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\manage-categories.html",
+      "PackagePath": "staticwebassets\\admin\\manage-categories.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\manage-comments.html",
+      "PackagePath": "staticwebassets\\admin\\manage-comments.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\manage-posts.html",
+      "PackagePath": "staticwebassets\\admin\\manage-posts.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\manage-subcategories.html",
+      "PackagePath": "staticwebassets\\admin\\manage-subcategories.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\trash-posts.html",
+      "PackagePath": "staticwebassets\\admin\\trash-posts.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\unapprove-comment.html",
+      "PackagePath": "staticwebassets\\admin\\unapprove-comment.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\css\\login_register.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login_register.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\css\\modern-business.css",
+      "PackagePath": "staticwebassets\\assets\\css\\modern-business.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\css\\upload.css",
+      "PackagePath": "staticwebassets\\assets\\css\\upload.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\images\\usericon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\usericon.png"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\js\\contact_me.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact_me.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\js\\jqBootstrapValidation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqBootstrapValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\js\\login_register.js",
+      "PackagePath": "staticwebassets\\assets\\js\\login_register.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\js\\upload.js",
+      "PackagePath": "staticwebassets\\assets\\js\\upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\assets\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Practice 3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Practice 3.props",
+      "PackagePath": "build\\Practice 3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Practice 3.props",
+      "PackagePath": "buildMultiTargeting\\Practice 3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Practice 3.props",
+      "PackagePath": "buildTransitive\\Practice 3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

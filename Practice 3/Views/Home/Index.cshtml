@@ -1,0 +1,100 @@
+﻿
+@model HomeVM
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row" style="margin-top: 4%">
+        <!-- Blog Entries Column -->
+        
+        <div class="col-md-8">
+            <!-- Blog Post -->
+          @foreach (var item in Model.News)
+            {
+                <div class="card mb-4">
+                    <img class="card-img-top"
+                         src="~/admin/assets/postimages/@item.Image"
+                         alt="" />
+                    <div class="card-body">
+                        <h2 class="card-title">@item.Title</h2>
+                        <p><b>Category : </b> <a asp-controller="Category" asp-action="Index" >@item.Category.Name</a></p>
+
+                        <a asp-controller="News" asp-action="NewDetail" asp-route-NewsId="@item.Id" class="btn btn-primary">Read More &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">Posted on @item.CreateTime</div>
+                </div>
+            }
+            <ul class="pagination justify-content-center mb-4">
+                <li class="page-item">
+                    <a href="?pageno=1" class="page-link">First</a>
+                </li>
+                <li class="page-item">
+                    <a href="2" class="page-link">Prev</a>
+                </li>
+                <li class="page-item">
+                    <a href="3 " class="page-link">Next</a>
+                </li>
+                <li class="page-item">
+                    <a href="?pageno=9" class="page-link">Last</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+            <!-- Search Widget -->
+            <div class="card mb-4">
+                <h5 class="card-header">Search</h5>
+                <div class="card-body">
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                    <form name="search" asp-action="Search" asp-controller="News" method="post" enctype="multipart/form-data">
+                        <div class="input-group">
+                            <input type="text"
+                                   name="searchtitle"
+                                   class="form-control"
+                                   placeholder="Search for..."
+                                   required />
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-secondary">Go!</button>
+                            </span>
+                           
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <!-- Categories Widget -->
+            <div class="card my-4">
+                <h5 class="card-header">Categories</h5>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled mb-0">
+                               @foreach (var item in Model.Categories)
+                                {
+                                    <li>
+                                        <a asp-action="Index" asp-controller="Category" asp-route-CategoryId="@item.Id">@item.Name</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Side Widget -->
+            <div class="card my-4">
+                <h5 class="card-header">Recent News</h5>
+                <div class="card-body">
+                    <ul class="mb-0">
+                       @foreach (var item in Model.News)
+                        {
+                            <li>
+                                <a asp-controller="News" asp-action="NewDetail" asp-route-NewsId="@item.Id">@item.Title</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
