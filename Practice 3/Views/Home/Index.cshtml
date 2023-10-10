@@ -2,11 +2,11 @@
 @model HomeVM
 
 <!-- Page Content -->
-<div class="container">
-    <div class="row" style="margin-top: 4%">
+<div  class="container">
+    <div  class="row" style="margin-top: 4%">
         <!-- Blog Entries Column -->
         
-        <div class="col-md-8">
+        <div  class="col-md-8">
             <!-- Blog Post -->
           @foreach (var item in Model.News)
             {
@@ -24,7 +24,13 @@
                 </div>
             }
             <ul class="pagination justify-content-center mb-4">
-                <li class="page-item">
+                @for (int i = 1; i <= ViewBag.PostCount; i++)
+                {
+                    <li class="page-item">
+                        <a asp-controller="Home" asp-action="Index" asp-route-page="@i"  class="page-link">@i</a>
+                    </li>
+                }
+               @* <li class="page-item">
                     <a href="?pageno=1" class="page-link">First</a>
                 </li>
                 <li class="page-item">
@@ -35,7 +41,7 @@
                 </li>
                 <li class="page-item">
                     <a href="?pageno=9" class="page-link">Last</a>
-                </li>
+                </li>*@
             </ul>
         </div>
         <!-- Sidebar Widgets Column -->
@@ -84,7 +90,7 @@
                 <h5 class="card-header">Recent News</h5>
                 <div class="card-body">
                     <ul class="mb-0">
-                       @foreach (var item in Model.News)
+                       @foreach (var item in Model.AllNews)
                         {
                             <li>
                                 <a asp-controller="News" asp-action="NewDetail" asp-route-NewsId="@item.Id">@item.Title</a>

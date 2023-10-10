@@ -1,0 +1,30 @@
+﻿@model CommentVM
+<div class="card-body">
+    <form  name="Comment" method="post" asp-action="Create" asp-controller="Comment"> 
+        <div class="form-group">
+            <input asp-for="Name"
+                   class="form-control"
+                   placeholder="Enter your fullname"
+                   required />
+        </div>
+        <div class="form-group">
+            <input asp-for="Email"
+                   
+                   class="form-control"
+                   placeholder="Enter your Valid email"
+                   required />
+        </div>
+        <div class="form-group">
+            <textarea class="form-control"
+            asp-for="Description"
+                      
+                      rows="3"
+                      placeholder="Comment"
+                      required></textarea>
+        </div>
+        <input hidden asp-for="PostId" />
+        <button type="submit" class="btn btn-primary" name="submit">
+            Submit
+        </button>
+    </form>
+</div>

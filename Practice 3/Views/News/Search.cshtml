@@ -9,30 +9,34 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
             <!-- Blog Post -->
-            @if (Model.News ==null)
+            @if (Model.News !=null)
             {
+                @foreach (var item in Model.News)
+                {
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">@item.Title</h2>
+                            <a asp-controller="News" asp-action="NewDetail" asp-route-NewsId="@item.Id" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
+                        <div class="card-footer text-muted">@item.CreateTime</div>
+                    </div>
+                }
 
+            }
+            @if(Model.IsNull == true)
+            {
                 <div class="card mb-4">
                     <div class="card-body">
                         <h2 class="card-title">Not found news</h2>
 
                     </div>
-                    <div class="card-footer text-muted"></div>
-                </div>
-            }
-            @foreach (var item in Model.News)
-            {
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">@item.Title</h2>
-                        <a asp-controller="News" asp-action="NewDetail" asp-route-NewsId="@item.Id" class="btn btn-primary">Read More &rarr;</a>
-                    </div>
-                    <div class="card-footer text-muted">@item.CreateTime</div>
-                </div>
-            }
-            
 
+                </div>
+            }
+                
+                
             
+                      
             <ul class="pagination justify-content-center mb-4">
                 <li class="page-item">
                     <a href="?pageno=1" class="page-link">First</a>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C3NnQ9G4jSWJEMVYpf+HbgHZTA3RLFo5GB8nmtQaE1k=",
+  "Hash": "5LF/hreoLQVEd/nedryZXyfoemPPVNvuRYrXPjnuXFM=",
   "Source": "Practice 3",
   "BasePath": "_content/Practice 3",
   "Mode": "Default",
@@ -6339,6 +6339,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\f5b25dad0b41995d2873e719b17e5864.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\https___d1e00ek4ebabms.cloudfront.net_production_3fc12950-1615-41e0-9d8f-4825c3777f2d.avif",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/postimages/https___d1e00ek4ebabms.cloudfront.net_production_3fc12950-1615-41e0-9d8f-4825c3777f2d.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\https___d1e00ek4ebabms.cloudfront.net_production_3fc12950-1615-41e0-9d8f-4825c3777f2d.avif"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\Без названия.jfif",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/postimages/Без названия.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\Без названия.jfif"
     },
     {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\change-image.html",

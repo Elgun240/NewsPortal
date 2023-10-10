@@ -10,6 +10,7 @@ namespace Practice_3.ViewModels
         public News New { get; set; }
         public List<Comment> Comments { get; set; }
         public List<SubCategory> SubCategories { get; set; }
-       
+        public List<News> AllNews { get; set; }
+
     }
 }

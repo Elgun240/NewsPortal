@@ -1485,6 +1485,14 @@
       "PackagePath": "staticwebassets\\admin\\assets\\postimages\\f5b25dad0b41995d2873e719b17e5864.png"
     },
     {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\https___d1e00ek4ebabms.cloudfront.net_production_3fc12950-1615-41e0-9d8f-4825c3777f2d.avif",
+      "PackagePath": "staticwebassets\\admin\\assets\\postimages\\https___d1e00ek4ebabms.cloudfront.net_production_3fc12950-1615-41e0-9d8f-4825c3777f2d.avif"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\Без названия.jfif",
+      "PackagePath": "staticwebassets\\admin\\assets\\postimages\\Без названия.jfif"
+    },
+    {
       "Id": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\change-image.html",
       "PackagePath": "staticwebassets\\admin\\change-image.html"
     },

@@ -9,5 +9,9 @@ namespace Practice_3.ViewModels
         public List<News> News { get; set; }
         public List<Comment> Comments { get; set; }
         public List<SubCategory> SubCategories { get; set; }
+        public string Description { get; set; }
+        public int NewsId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
     }
 }
