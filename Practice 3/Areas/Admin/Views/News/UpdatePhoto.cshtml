@@ -1,0 +1,70 @@
+﻿@model NewsEditVM
+@{
+    ViewData["Title"] = "UpdatePhoto";
+}
+
+ <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-xs-12">
+								<div class="page-title-box">
+                                    <h4 class="page-title">Update Image </h4>
+                                    <ol class="breadcrumb p-0 m-0">
+                                        <li>
+                                            <a href="#">Admin</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Posts </a>
+                                        </li>
+                                           <li>
+                                            <a href="#"> Edit Posts </a>
+                                        </li>
+                                        <li class="active">
+                                           Update Image
+                                        </li>
+                                    </ol>
+                                    <div class="clearfix"></div>
+                                </div>
+							</div>
+						</div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-sm-6">  
+                            <!---Success Message--->   
+                            <div class="alert alert-success" role="alert">
+                            <strong>Finished changing!</strong>
+                            </div>
+                            <!---Error Message--->
+                            <div class="alert alert-danger" role="alert">
+                            <strong>Oh snap!</strong>
+                            </div>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="p-6">
+                                            <form name="addpost" method="post" enctype="multipart/form-data" asp-controller="News" asp-action="UpdatePhoto">
+                                                <div class="form-group m-b-20">
+                                                    <label for="exampleInputEmail1">@Model.Title</label>
+                                                    <input type="text" class="form-control" id="posttitle" asp-for="Title" name="posttitle"  readonly>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                        <div class="card-box">
+                                                        <h4 class="m-b-30 m-t-0 header-title"><b>Current Post Image</b></h4>
+                                                <img src="~/admin/assets/postimages/@Model.Image" width="300" />
+                                                        <br />
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                        <div class="card-box">
+                                                        <h4 class="m-b-30 m-t-0 header-title"><b>New Feature Image</b></h4>
+                                                        <input asp-for="Photo" class="form-control" id="postimage"   required>
+                                                    </div>
+                                                    <button type="submit" name="update" class="btn btn-success waves-effect waves-light" asp-route-id="@Model.EditedNew.Id">Update </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div> <!-- end p-20 -->
+                                </div> <!-- end col -->
+                        </div><!-- end row -->
+                    </div> <!-- container -->
+                </div> <!-- content -->

@@ -1,0 +1,131 @@
+﻿@model List<Comment>
+@{
+    ViewData["Title"] = "ApprovedComments";
+}
+
+<!-- Start content -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-title-box">
+                    <h4 class="page-title">Manage Unapproved Comments</h4>
+                    <ol class="breadcrumb p-0 m-0">
+                        <li>
+                            <a href="#">Admin</a>
+                        </li>
+                        <li>
+                            <a href="#">Comments </a>
+                        </li>
+                        <li class="active">Unapprove Comments</li>
+                    </ol>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="alert alert-success" role="alert">
+                    <strong>Well done!</strong>
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    <strong>Oh snap!</strong>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="demo-box m-t-20">
+                        <div class="table-responsive">
+                            <table class="table m-0 table-colored-bordered table-bordered-primary">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+
+                                        <th width="300">Comment</th>
+                                        <th>Status</th>
+                                        <th>Post / News</th>
+                                        <th>Posting Date</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                @foreach (var item in Model)
+                                {
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">@item.Id</th>
+                                            <td>@item.Username</td>
+
+                                            @if (item.Text.Length > 20)
+                                            {
+
+                                                <td>
+                                                    <p id="cmt_@item.Id">@item.Text.Substring(0,20) </p>
+                                                    <span id="opn_@item.Id" onclick="showFull('opn_@item.Id', 'clp_@item.Id','cmt_@item.Id', `@item.Text` )">...</span>
+                                                    <span id="clp_@item.Id" style="display:none" onclick="Collapse('clp_@item.Id','opn_@item.Id','cmt_@item.Id' )">-</span>
+                                                </td>
+                                            }
+                                            else
+                                            {
+                                                <td>
+                                                    <p>@item.Text</p>
+                                                </td>
+                                            }
+                                            <td>@item.IsApproved</td>
+
+                                            <td><a asp-controller="News" asp-action="NewDetail" asp-area="" asp-route-NewsId="@item.News.Id">@item.News.Title</a></td>
+                                            <td>@item.CreateTime</td>
+                                            <td>
+                                                <a asp-action="Prohibid" asp-controller="Comments" asp-route-id="@item.Id"
+                                                   title="Approve this comment">
+                                                    <i class="ion-arrow-return-right"
+                                                       style="color: #29b6f6"></i>
+                                                </a>
+                                                &nbsp;<a asp-action="Delete" asp-controller="Comments" asp-route-id="@item.Id">
+                                                    <i class="fa fa-trash-o"
+                                                       style="color: #f05050"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- end row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="demo-box m-t-20">
+                        <div class="m-b-30"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </div>
+    <!-- content -->
+
+    <script>
+        function Collapse(collapseId, openId, Id) {
+            let p = document.getElementById(Id);
+            let newtext = p.innerText.substring(0, 20);
+            p.innerText = newtext;
+            p.innerHTML = newtext;
+            document.getElementById(collapseId).style.display = "none";
+            document.getElementById(openId).style.display = "block";
+        }
+        function showFull(openId, collapseId, Id, text) {
+            let p = document.getElementById(Id);
+            p.innerText = text;
+            p.innerHTML = text;
+            document.getElementById(openId).style.display = "none";
+            document.getElementById(collapseId).style.display = "block";
+
+        }
+    </script>
+

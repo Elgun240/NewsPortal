@@ -14,12 +14,20 @@ namespace Practice_3.Controllers
         {
             _db = db;
         }
+        public IActionResult Index()
+        {
+            return View();
+        }
         ////public IActionResult Index()
         ////{
         ////    return View();
         ////}
         public IActionResult NewDetail(int NewsId)
         {
+            if (NewsId == 0)
+            {
+                return NotFound();
+            }
             NewsVM newsVM = new NewsVM()
             {
                 News = _db.News.Where(x => x.IsDeactive == false).OrderByDescending(x => x.Id).Take(5).ToList(),
@@ -32,7 +40,10 @@ namespace Practice_3.Controllers
         }
         public IActionResult Search(string searchtitle)
         {
-
+            if (searchtitle == null)
+            {
+                return NotFound();
+            }
             SearchVM searchVM = new SearchVM()
             {
                 News = _db.News.Where(x => x.IsDeactive == false).Where(x => x.Title.ToLower().Contains(searchtitle)).ToList(),

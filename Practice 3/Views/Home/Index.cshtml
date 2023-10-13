@@ -16,7 +16,7 @@
                          alt="" />
                     <div class="card-body">
                         <h2 class="card-title">@item.Title</h2>
-                        <p><b>Category : </b> <a asp-controller="Category" asp-action="Index" >@item.Category.Name</a></p>
+                        <p><b>Category : </b> <b>@item.Category.Name</b></p>
 
                         <a asp-controller="News" asp-action="NewDetail" asp-route-NewsId="@item.Id" class="btn btn-primary">Read More &rarr;</a>
                     </div>
@@ -24,12 +24,19 @@
                 </div>
             }
             <ul class="pagination justify-content-center mb-4">
+                
+                <li class="page-item">
+                    <a asp-controller="Home" asp-action="Index" asp-route-page="@(Model.currentPage-1)" class="page-link">Previous</a>
+                </li>
                 @for (int i = 1; i <= ViewBag.PostCount; i++)
                 {
                     <li class="page-item">
                         <a asp-controller="Home" asp-action="Index" asp-route-page="@i"  class="page-link">@i</a>
                     </li>
                 }
+                <li class="page-item">
+                    <a asp-controller="Home" asp-action="Index" asp-route-page="@(Model.currentPage+1)" class="page-link">Next</a>
+                </li>
                @* <li class="page-item">
                     <a href="?pageno=1" class="page-link">First</a>
                 </li>

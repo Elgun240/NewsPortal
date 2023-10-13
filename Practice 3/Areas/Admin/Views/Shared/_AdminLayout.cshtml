@@ -53,6 +53,12 @@
                                 </button>
                             </li>
                         </ul>
+                       
+                        @{
+                            var user = Context.User.Identity;
+                            var image = ViewData["profilePhoto"];
+                        }
+                        
                         <!-- Right(Notification) -->
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown user-box">
@@ -60,7 +66,7 @@
                                    class="dropdown-toggle waves-effect user-link"
                                    data-toggle="dropdown"
                                    aria-expanded="true">
-                                    <img src="~/admin/assets/images/users/avatar-1.jpg"
+                                    <img src="~/admin/assets/images/users/@image"
                                          alt="user-img"
                                          class="img-circle user-img" />
                                 </a>
@@ -69,10 +75,10 @@
                                         <h5>Welcome back</h5>
                                     </li>
                                     <li>
-                                        <a href="~/admin/change-password.html"><i class="ti-settings m-r-5"></i> Change Password</a>
+                                        <a asp-action="ChangePassword" asp-controller="Account" asp-area=""><i class="ti-settings m-r-5"></i> Change Password</a>
                                     </li>
                                     <li>
-                                        <a href="~/admin/logout.html"><i class="ti-power-off m-r-5"></i> Logout</a>
+                                        <a asp-controller="Account" asp-action="Logout" asp-area="" class="ti-power-off m-r-5"></asp-controller> Logout</a>
                                     </li>
                                 </ul>
                             </li>
@@ -106,7 +112,7 @@
                             <ul class="list-unstyled">
                                 <li class="nav-item"><a class="nav-link" asp-controller="Categories" asp-action="Create">Add Category</a></li>
                                 <li>
-                                    <a href="~/admin/manage-categories.html">Manage Category</a>
+                                    <a asp-controller="Categories" asp-action="Manage">Manage Category</a>
                                 </li>
                             </ul>
                         </li>
@@ -117,9 +123,9 @@
                                 <span>Sub Category </span> <span class="menu-arrow"></span>
                             </a>
                             <ul class="list-unstyled">
-                                <li><a href="~/admin/add-subcategory.html">Add Sub Category</a></li>
+                                <li><a asp-controller="SubCategories" asp-action="AddSubCategory">Add Sub Category</a></li>
                                 <li>
-                                    <a href="~/admin/manage-subcategories.html">Manage Sub Category</a>
+                                    <a asp-controller="SubCategories" asp-action="ManageSubCategory">Manage Sub Category</a>
                                 </li>
                             </ul>
                         </li>
@@ -129,9 +135,9 @@
                                 <span> Posts </span> <span class="menu-arrow"></span>
                             </a>
                             <ul class="list-unstyled">
-                                <li><a href="~/admin/add-post.html">Add Posts</a></li>
-                                <li><a href="~/admin/manage-posts.html">Manage Posts</a></li>
-                                <li><a href="~/admin/trash-posts.html">Trash Posts</a></li>
+                                <li><a asp-action="AddPost" asp-controller="News">Add Posts</a></li>
+                                <li><a asp-controller="News" asp-action="Manage">Manage Posts</a></li>
+                                <li><a asp-controller="News" asp-action="Trash">Trash Posts</a></li>
                             </ul>
                         </li>
                         <li class="has_sub">
@@ -141,10 +147,10 @@
                             </a>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="~/admin/unapprove-comment.html">Waiting for Approval </a>
+                                    <a asp-controller="Comments" asp-action="Waiting">Waiting for Approval </a>
                                 </li>
                                 <li>
-                                    <a href="~/admin/manage-comments.html">Approved Comments</a>
+                                    <a asp-controller="Comments" asp-action="ApprovedComments">Approved Comments</a>
                                 </li>
                             </ul>
                         </li>

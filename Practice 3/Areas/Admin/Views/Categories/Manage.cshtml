@@ -1,12 +1,10 @@
-﻿
+﻿@model ManageCategoriesVM
 @{
     ViewData["Title"] = "Manage";
 }
 
-<div class="content-page">
-    @{
-        ViewData["Title"] = "Manage";
-    }
+
+    
     <!-- Start content -->
     <div class="content">
         <div class="container">
@@ -31,7 +29,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="alert alert-success" role="alert">
-                        <strong>Elgun managing!</strong>
+                        <strong>Category managing!</strong>
                     </div>
                     <div class="alert alert-danger" role="alert">
                         <strong>Oh snap!</strong>
@@ -41,7 +39,7 @@
                     <div class="col-md-12">
                         <div class="demo-box m-t-20">
                             <div class="m-b-30">
-                                <a href="./add-category.html">
+                                <a asp-controller="Categories" asp-action="Create">
                                     <button id="addToTable"
                                             class="btn btn-success waves-effect waves-light">
                                         Add <i class="mdi mdi-plus-circle-outline"></i>
@@ -50,6 +48,7 @@
                             </div>
                             <div class="table-responsive">
                                 <table class="table m-0 table-colored-bordered table-bordered-primary">
+
                                     <thead>
                                         <tr>
                                             <th>#</th>
@@ -60,25 +59,30 @@
                                             <th>Action</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>CategoryName</td>
-                                            <td>Description</td>
-                                            <td>PostingDate</td>
-                                            <td>UpdationDate</td>
-                                            <td>
-                                                <a href="./edit-category.html">
-                                                    <i class="fa fa-pencil"
-                                                       style="color: #29b6f6"></i>
-                                                </a>
-                                                &nbsp;<a href="./manage-categories.html">
-                                                    <i class="fa fa-trash-o"
-                                                       style="color: #f05050"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
+                                                @foreach (var item in Model.Categories)
+                                    {
+                                     
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">@item.Id</th>
+                                                <td>@item.Name</td>
+                                                <td>@item.Desctiption</td>
+                                                <td>@item.CreatedDate</td>
+                                                <td>@item.LastUpddationTime</td>
+                                                <td>
+                                                    <a asp-controller="Categories" asp-action="Edit" asp-route-id="@item.Id">
+                                                        <i class="fa fa-pencil"
+                                                           style="color: #29b6f6"></i>
+                                                    </a>
+                                                    &nbsp;<a asp-controller="Categories" asp-action="Deactive" asp-route-id="@item.Id">
+                                                        <i class="fa fa-trash-o"
+                                                           style="color: #f05050"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                        }
+                                   
                                 </table>
                             </div>
                         </div>
@@ -103,26 +107,30 @@
                                             <th>Action</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>CategoryName</td>
-                                            <td>Description</td>
-                                            <td>PostingDate</td>
-                                            <td>UpdationDate</td>
-                                            <td>
-                                                <a href="./manage-categories.html">
-                                                    <i class="ion-arrow-return-right"
-                                                       title="Restore this category"></i>
-                                                </a>
-                                                &nbsp;<a href="./manage-categories.html"
-                                                         title="Delete forever">
-                                                    <i class="fa fa-trash-o"
-                                                       style="color: #f05050"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
+                                    @foreach (var item in Model.DeactivedCategories)
+                                    {
+                                        
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">@item.Id</th>
+                                                <td>@item.Name</td>
+                                                <td>@item.Desctiption</td>
+                                                <td>@item.CreatedDate</td>
+                                                <td>@item.LastUpddationTime</td>
+                                                <td>
+                                                    <a asp-action="Restore" asp-controller="Categories" asp-route-id="@item.Id">
+                                                        <i class="ion-arrow-return-right"
+                                                           title="Restore this category"></i>
+                                                    </a>
+                                                    &nbsp;<a asp-action="Delete" asp-controller="Categories" asp-route-id="@item.Id"
+                                                             title="Delete forever">
+                                                        <i class="fa fa-trash-o"
+                                                           style="color: #f05050"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    }
                                 </table>
                             </div>
                         </div>

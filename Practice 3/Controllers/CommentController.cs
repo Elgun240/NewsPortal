@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Practice_3.DAL;
 using Practice_3.Models;
 using Practice_3.ViewModels;
@@ -27,6 +28,10 @@ namespace Practice_3.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(NewsVM newsVM)
         {
+            if (newsVM==null)
+            {
+                return NotFound();
+            }
             if(User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -35,6 +40,7 @@ namespace Practice_3.Controllers
                 {
                     NotFound();
                 }
+                
                 await _db.Comments.AddAsync(new Comment()
                 {
                     CreateTime = DateTime.UtcNow,
@@ -46,6 +52,10 @@ namespace Practice_3.Controllers
                 }) ;
                 await _db.SaveChangesAsync();
                
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
             }
             return RedirectToAction("NewDetail", "News", new { NewsId = newsVM.New.Id });
 

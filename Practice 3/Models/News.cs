@@ -1,4 +1,6 @@
-﻿namespace Practice_3.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Practice_3.Models
 {
     public class News
     {
@@ -13,5 +15,7 @@
         public int SubCategoryId { get; set; }
         public List<Comment>? Comments { get; set; }
         public string Image { get; set; }
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }

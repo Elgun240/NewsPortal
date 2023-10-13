@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Practice_3.ViewModels
 {
@@ -12,5 +13,8 @@ namespace Practice_3.ViewModels
         public string Password { get; set; }
         [Required,DataType(DataType.Password),Compare(nameof(Password))]
         public string CheckPassword { get; set; }
+        public string Image { get;set; }
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }

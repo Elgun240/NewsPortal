@@ -8,6 +8,8 @@
         public DateTime CreatedDate { get; set; }
         public bool IsDeactive { get; set; }
         public List<News>? News { get; set; }
+        public string Desctiption { get; set; }
+        public DateTime? LastUpddationTime { get; set; }
 
     }
 }

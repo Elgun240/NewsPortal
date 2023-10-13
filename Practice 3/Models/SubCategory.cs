@@ -6,8 +6,10 @@
         public string Name { get; set; }
         public bool IsDeactive { get; set; }
         public DateTime CreateTime { get; set; }
+        public DateTime LastUpdateDate { get; set; }
         public Category? Category { get; set; }
         public int CategoryId { get; set; }
         public List<News>? News { get; set; }
+        public string Description { get; set; }
     }
 }

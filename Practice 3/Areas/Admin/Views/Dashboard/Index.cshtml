@@ -1,4 +1,5 @@
-﻿@{
+﻿@model DashboardVM
+@{
     ViewData["Title"] = "Index";
 }
 <!-- Start content -->
@@ -10,7 +11,7 @@
                     <h4 class="page-title">Dashboard</h4>
                     <ol class="breadcrumb p-0 m-0">
                         <li>
-                            <a href="#">NewsPortal</a>
+                            <a asp-controller="Home" asp-action="Index" asp-area="">NewsPortal</a>
                         </li>
                         <li>
                             <a href="#">Admin</a>
@@ -24,7 +25,7 @@
         <!-- end row -->
 
         <div class="row">
-            <a href="./manage-categories.html">
+            <a asp-action="Manage" asp-controller="Categories">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="card-box widget-box-one">
                         <i class="mdi mdi-chart-areaspline widget-one-icon"></i>
@@ -34,14 +35,14 @@
                                 Categories Listed
                             </p>
                             <h2>
-                                12
+                                @Model.CategoryCount
                                 <small></small>
                             </h2>
                         </div>
                     </div>
                 </div>
             </a><!-- end col -->
-            <a href="./manage-subcategories.html">
+            <a asp-action="ManageSubCategory" asp-controller="SubCategories">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="card-box widget-box-one">
                         <i class="mdi mdi-layers widget-one-icon"></i>
@@ -51,7 +52,7 @@
                                 Listed Subcategories
                             </p>
                             <h2>
-                                9
+                                @Model.SubCategoriesCount
                                 <small></small>
                             </h2>
                         </div>
@@ -59,7 +60,8 @@
                 </div>
                 <!-- end col -->
             </a>
-            <a href="./manage-posts.html">
+            <a asp-action="Manage" asp-controller="News">
+                
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="card-box widget-box-one">
                         <i class="mdi mdi-layers widget-one-icon"></i>
@@ -69,7 +71,7 @@
                                 Live News
                             </p>
                             <h2>
-                                5
+                               @Model.NewsCount
                                 <small></small>
                             </h2>
                         </div>
@@ -81,7 +83,8 @@
         <!-- end row -->
 
         <div class="row">
-            <a href="./trash-posts.html">
+            <a asp-action="Trash" asp-controller="News">
+                
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="card-box widget-box-one">
                         <i class="mdi mdi-layers widget-one-icon"></i>
@@ -91,7 +94,7 @@
                                 Trash News
                             </p>
                             <h2>
-                                2
+                                @Model.TrashNewsCount
                                 <small></small>
                             </h2>
                         </div>

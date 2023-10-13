@@ -14,6 +14,7 @@ namespace Practice_3.DAL
         public DbSet<Comment> Comments { get; set; }
         public DbSet<News> News { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
+        public DbSet<ProfilePhoto> ProfilePhotos { get; set; }
     }
     
 
