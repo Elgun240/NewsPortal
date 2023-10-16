@@ -10,5 +10,7 @@ namespace Practice_3.Models
         public bool IsDeactive { get; set; }
         [NotMapped]
         public string Image { get; set; }
+        public ProfilePhoto ProfilePhoto { get; set; }
+        public List<Comment> Comments { get; set; }
     }
 }

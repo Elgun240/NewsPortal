@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Practice_3.DAL;
 
@@ -11,9 +12,10 @@ using Practice_3.DAL;
 namespace Practice_3.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231016112907_AddedThings")]
+    partial class AddedThings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -284,7 +286,7 @@ namespace Practice_3.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -293,8 +295,6 @@ namespace Practice_3.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("NewsId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Comments");
                 });
@@ -458,15 +458,7 @@ namespace Practice_3.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Practice_3.Models.AppUser", "User")
-                        .WithMany("Comments")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("News");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Practice_3.Models.News", b =>
@@ -512,8 +504,6 @@ namespace Practice_3.Migrations
 
             modelBuilder.Entity("Practice_3.Models.AppUser", b =>
                 {
-                    b.Navigation("Comments");
-
                     b.Navigation("ProfilePhoto")
                         .IsRequired();
                 });

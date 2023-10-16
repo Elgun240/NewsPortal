@@ -26,7 +26,15 @@ namespace Practice_3.Controllers
             var user = await _userManager.GetUserAsync(User);
             List<Comment> comments = await _db.Comments.Where(x=>x.UserId== user.Id).ToListAsync();
             var image = _db.ProfilePhotos.Select(i => i).Where(x => x.UserId == user.Id).FirstOrDefault();
-            ViewData["profilePhoto"] = image.ImagePath;
+            if(image == null)
+            {
+                ViewData["profilePhoto"] = "b119040e-e40f-4f3b-a524-ee3d8f415a37261eae38-384e-4101-961a-a949f727e4ccbank.png";
+            }
+            else
+            {
+                ViewData["profilePhoto"] = image.ImagePath;
+            }
+            
             return View(comments);
         }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OPTOk5DElBnqZLWTS386+HqwZa+kLvdV+r4XcOzBw50=",
+  "Hash": "3eBBlA4LAuJhzOtw8xrH22OKAnAvARu5i6It9ByxR80=",
   "Source": "Practice 3",
   "BasePath": "_content/Practice 3",
   "Mode": "Default",
@@ -6069,6 +6069,23 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\icons\\workflow.svg"
     },
     {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\261eae38-384e-4101-961a-a949f727e4ccbank.png",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/images/users/261eae38-384e-4101-961a-a949f727e4ccbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\users\\261eae38-384e-4101-961a-a949f727e4ccbank.png"
+    },
+    {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\2c844071-1237-4951-a495-85cf7c4f0649823c29bb-53c0-4cea-a800-8c0d369a1d858a21f2c6-51d2-4528-889f-c16098b17df726e48614-f48d-4289-9fe1-9fbd24562042502647470c8b655c9b09538c550a3f3f.png",
       "SourceId": "Practice 3",
       "SourceType": "Discovered",
@@ -6101,23 +6118,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\users\\2f9c2152-80f9-4b8d-ad84-8e92823d555b7cce07ee-3730-494b-8fae-94e3c49a4697df9b99ae-bd94-4026-af07-95e8a6f606e9bank.png"
-    },
-    {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\4247d9ad-39aa-474b-9bfb-451589b20fb3261eae38-384e-4101-961a-a949f727e4ccbank.png",
-      "SourceId": "Practice 3",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
-      "BasePath": "_content/Practice 3",
-      "RelativePath": "admin/assets/images/users/4247d9ad-39aa-474b-9bfb-451589b20fb3261eae38-384e-4101-961a-a949f727e4ccbank.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\users\\4247d9ad-39aa-474b-9bfb-451589b20fb3261eae38-384e-4101-961a-a949f727e4ccbank.png"
     },
     {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\543a8096-4be6-45ff-856a-1913a898e941261eae38-384e-4101-961a-a949f727e4ccbank.png",
@@ -6220,6 +6220,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\users\\b690d5e7-3276-43de-afb8-f5abf59ddf7b568ae0f0-0b5c-4877-b182-624f4396888abank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\e7b8d9e6-9886-47fd-aae9-55bf4b7f97bcbank.png",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/images/users/e7b8d9e6-9886-47fd-aae9-55bf4b7f97bcbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\users\\e7b8d9e6-9886-47fd-aae9-55bf4b7f97bcbank.png"
     },
     {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\images\\users\\fa541824-22e4-4ed7-8092-6dabbe681eff261eae38-384e-4101-961a-a949f727e4ccbank.png",
@@ -6664,6 +6681,23 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\8a21f2c6-51d2-4528-889f-c16098b17df726e48614-f48d-4289-9fe1-9fbd24562042502647470c8b655c9b09538c550a3f3f.png"
     },
     {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\9de82cd7-29cb-4b48-a74a-fd25696c0752works.png.jpg",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/postimages/9de82cd7-29cb-4b48-a74a-fd25696c0752works.png.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\9de82cd7-29cb-4b48-a74a-fd25696c0752works.png.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\a6ea2ad0-aa4f-4f4a-9e63-af9c36c0809633f4832a-0c3e-41c6-9a2a-92e1219b40c3502647470c8b655c9b09538c550a3f3f.png",
       "SourceId": "Practice 3",
       "SourceType": "Discovered",
@@ -6696,6 +6730,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\ac9ce8b9-aa6e-42e7-bbd4-a0c32c66f4acbank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\af3efa7a-d270-4b4c-a248-79d3e0990febbank.png",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/postimages/af3efa7a-d270-4b4c-a248-79d3e0990febbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\af3efa7a-d270-4b4c-a248-79d3e0990febbank.png"
     },
     {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\b7c033a7-fe3d-493a-a753-df6907f489b733f4832a-0c3e-41c6-9a2a-92e1219b40c3502647470c8b655c9b09538c550a3f3f.png",
@@ -6766,6 +6817,23 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\df9b99ae-bd94-4026-af07-95e8a6f606e9bank.png"
     },
     {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\e74a6a0d-85c9-4307-8605-abf3ea0e4912bank.png",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/postimages/e74a6a0d-85c9-4307-8605-abf3ea0e4912bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\e74a6a0d-85c9-4307-8605-abf3ea0e4912bank.png"
+    },
+    {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\e9482188df4e375c07ca396d000a3a27.png",
       "SourceId": "Practice 3",
       "SourceType": "Discovered",
@@ -6781,6 +6849,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\e9482188df4e375c07ca396d000a3a27.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\f238e6b1-ae90-4b47-b22a-599bb187e9dbbank.png",
+      "SourceId": "Practice 3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\",
+      "BasePath": "_content/Practice 3",
+      "RelativePath": "admin/assets/postimages/f238e6b1-ae90-4b47-b22a-599bb187e9dbbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\postimages\\f238e6b1-ae90-4b47-b22a-599bb187e9dbbank.png"
     },
     {
       "Identity": "C:\\Users\\Luna\\Desktop\\Practice 3\\Practice 3\\wwwroot\\admin\\assets\\postimages\\f5b25dad0b41995d2873e719b17e5864.png",

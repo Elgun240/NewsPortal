@@ -11,5 +11,6 @@
         public DateTime CreateTime { get; set; }
         public News? News { get; set; }
         public int NewsId { get; set; }
+        public AppUser User { get; set; }
     }
 }

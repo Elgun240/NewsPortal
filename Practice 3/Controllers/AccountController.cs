@@ -53,7 +53,15 @@ namespace Practice_3.Controllers
                 ModelState.AddModelError("", "Your account has been blocked ");
                 return View();
             }
-            Microsoft.AspNetCore.Identity.SignInResult signInResult = await _signInManager.PasswordSignInAsync(appUser, loginVM.Password, true, true);
+            Microsoft.AspNetCore.Identity.SignInResult signInResult = await _signInManager.PasswordSignInAsync(appUser, loginVM.Password, false, true);
+            if (loginVM.rememberMe == true)
+            {
+                 signInResult = await _signInManager.PasswordSignInAsync(appUser, loginVM.Password, true, true);
+            }
+            
+                
+            
+            
             if (signInResult.IsLockedOut)
             {
                 ModelState.AddModelError("", "Your account locked out for 1 min ");
@@ -102,22 +110,27 @@ namespace Practice_3.Controllers
                     return View(registerVM);
                 }
             }
-            string path = Path.Combine(_env.WebRootPath, @"admin\assets\images\users");
-            registerVM.Image = await registerVM.Photo.SaveImageAsync(path);
             AppUser newUser = new AppUser
             {
                 Name = "Elgun",
                 Surname = "Hemzeyev",
                 Email = registerVM.Email,
                 UserName = registerVM.UserName,
-               
-                
+
+
             };
-            if (registerVM.Photo ==null)
+            if (registerVM.Photo != null)
+            {
+                
+            string path = Path.Combine(_env.WebRootPath, @"admin\assets\images\users");
+            registerVM.Image = await registerVM.Photo.SaveImageAsync(path);
+           
+            }
+            else
             {
                 newUser.Image = "avatar-1.jpg";
             }
-            
+
             var identityResult = await _userManager.CreateAsync(newUser, registerVM.Password);
             if (!identityResult.Succeeded)
             {
@@ -127,11 +140,12 @@ namespace Practice_3.Controllers
                 }
                 return View();
             }
+
             await _userManager.AddToRoleAsync(newUser, Roles.Member.ToString());
             await _signInManager.SignInAsync(newUser, true);
             var newProfilePhoto = new ProfilePhoto();
             newProfilePhoto.UserId = newUser.Id;
-            newProfilePhoto.ImagePath = registerVM.Photo.FileName;
+            newProfilePhoto.ImagePath = registerVM.Photo == null ? newUser.Image : registerVM.Photo.FileName;
             _db.ProfilePhotos.Add(newProfilePhoto);
             await _db.SaveChangesAsync();
             return RedirectToAction("Index", "Home");

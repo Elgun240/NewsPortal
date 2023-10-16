@@ -32,7 +32,7 @@ namespace Practice_3.Areas.Admin.Controllers
             bool isExist = _db.Categories.Any(x=>x.Name==category.Name);
             if (isExist==true)
             {
-                ModelState.AddModelError("Name", "This category is already exist!");
+                ModelState.AddModelError("Error", "This category is already exist!");
                 return View();
             }            
             
@@ -46,7 +46,8 @@ namespace Practice_3.Areas.Admin.Controllers
             };
              _db.Categories.Add(newcategory);
             await _db.SaveChangesAsync();
-            return RedirectToAction("Manage" , "Categories");
+            ModelState.AddModelError("Success", "Category created succesfully!");
+            return View();
         }
         public async Task<IActionResult> Manage()
         {
@@ -55,6 +56,14 @@ namespace Practice_3.Areas.Admin.Controllers
                 DeactivedCategories = await _db.Categories.Where(x => x.IsDeactive == true).ToListAsync(),
                 Categories = await _db.Categories.Where(x => x.IsDeactive == false).ToListAsync()
             };
+            if (TempData.ContainsKey("Success"))
+            {
+                ModelState.AddModelError("Success", TempData["Success"].ToString());
+            }
+            if (TempData.ContainsKey("Error"))
+            {
+                ModelState.AddModelError("Error", TempData["Error"].ToString());
+            }
             return View(mcVM);
         }
         public async Task<IActionResult> Edit(int? id)
@@ -78,7 +87,7 @@ namespace Practice_3.Areas.Admin.Controllers
             bool isExist = _db.Categories.Any(c=>c.Name==category.Name);
             if (isExist==true)
             {
-                ModelState.AddModelError("Name", "This category is already exist!");
+                ModelState.AddModelError("Error", "This category is already exist!");
                 return View();
             }
             dbcategory.Name=category.Name;
@@ -90,6 +99,7 @@ namespace Practice_3.Areas.Admin.Controllers
             
             dbcategory.LastUpddationTime = DateTime.Now;
            await  _db.SaveChangesAsync();
+            TempData["Success"] = "Category edited succesfully!";
             return RedirectToAction("Manage" , "Categories");
         }
         public async Task<IActionResult> Deactive(int? id)
@@ -101,6 +111,7 @@ namespace Practice_3.Areas.Admin.Controllers
             var category = await _db.Categories.FirstOrDefaultAsync(x => x.Id == id);
             category.IsDeactive= true;
             await _db.SaveChangesAsync();
+            TempData["Error"] = "Category deactived!";
             return RedirectToAction("Manage" , "Categories");
         }
         public async Task<IActionResult> Restore(int? id)
@@ -112,6 +123,7 @@ namespace Practice_3.Areas.Admin.Controllers
             var category = await _db.Categories.FirstOrDefaultAsync(x => x.Id == id);
             category.IsDeactive = false;
             await _db.SaveChangesAsync();
+            TempData["Success"] = "Category restored!";
             return RedirectToAction("Manage", "Categories");
         }
         public async Task<IActionResult> Delete(int? id)
@@ -123,6 +135,7 @@ namespace Practice_3.Areas.Admin.Controllers
             var category = await _db.Categories.FirstOrDefaultAsync(x => x.Id == id);
             _db.Categories.Remove(category);
             await _db.SaveChangesAsync();
+            TempData["Error"] = "Category deleted!";
             return RedirectToAction("Manage", "Categories");
         }
     }

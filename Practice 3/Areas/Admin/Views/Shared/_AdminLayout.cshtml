@@ -38,7 +38,7 @@
             <div class="topbar">
                 <!-- LOGO -->
                 <div class="topbar-left text-wrap">
-                    <a href="~/admin/dashboard.html" class="logo text-wrap">
+                    <a asp-controller="Dashboard" asp-action="Index" class="logo text-wrap">
                         Admin Nav<i class="mdi mdi-layers"></i>
                     </a>
                 </div>
@@ -66,7 +66,7 @@
                                    class="dropdown-toggle waves-effect user-link"
                                    data-toggle="dropdown"
                                    aria-expanded="true">
-                                    <img src="~/admin/assets/images/users/@image"
+                                    <img src="~/admin/assets/images/users/@ViewData["profilePhoto"]"
                                          alt="user-img"
                                          class="img-circle user-img" />
                                 </a>

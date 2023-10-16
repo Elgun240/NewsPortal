@@ -114,10 +114,18 @@
                 foreach (var item in Model.Comments)
                 {
                     <div class="media mb-4">
-                        <img class="d-flex mr-3 rounded-circle"
-                             src="./assets/images/usericon.png"
-                             alt="" />
-                        <div class="media-body">
+                        @if (item.User.ProfilePhoto == null)
+                        {
+                            <img width="50" height="50"  class="d-flex mr-3 rounded-circle"
+                            src="~/assets/images/usericon.png">
+                        }
+                        else
+                        {
+                            <img width="50" height="50" class="d-flex mr-3 rounded-circle"
+                                 src="~/admin/assets/images/users/@item.User.ProfilePhoto.ImagePath">
+
+                        }   
+                            <div class="media-body">
                             <h5 class="mt-0">
                                 @item.Username
                                 <br />

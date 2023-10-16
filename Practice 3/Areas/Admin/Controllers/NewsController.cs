@@ -34,6 +34,7 @@ namespace Practice_3.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddPost(NewsAddVM nnaVM)
         {
+           
             if (nnaVM == null)
             {
                 return NotFound();
@@ -45,17 +46,17 @@ namespace Practice_3.Areas.Admin.Controllers
             };
             if (nnaVM.Photo == null)
             {
-                
+                ModelState.AddModelError("Error", "Select photo");
                 return View(naVM);
             }
             if (!nnaVM.Photo.IsImage())
             {
-               
+                ModelState.AddModelError("Error", "Select image file");
                 return View(naVM);
             }
             if (nnaVM.Photo.IsMore4mb())
             {
-               
+                ModelState.AddModelError("Error", "Max size photo is 4 mb");
                 return View(naVM);
             }
             string path = Path.Combine(_env.WebRootPath, @"admin\assets\postimages");
@@ -71,7 +72,8 @@ namespace Practice_3.Areas.Admin.Controllers
             };
             await _db.News.AddAsync(news);
             await _db.SaveChangesAsync();
-            return  RedirectToAction("Index" , "Dashboard");
+            ModelState.AddModelError("Success", "New post added succesfully!");
+            return  View(naVM);
         }
         public async Task<IActionResult> Manage()
         {
@@ -122,25 +124,36 @@ namespace Practice_3.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdatePhoto(NewsEditVM neVM , int id)
         {
+            var ENew = await _db.News.FirstOrDefaultAsync(x => x.Id == id);
+            NewsEditVM neVM1 = new NewsEditVM()
+            {
+
+                Categories = await _db.Categories.Where(x => x.IsDeactive == false).ToListAsync(),
+                SubCategories = await _db.SubCategories.Where(x => x.IsDeactive == false).ToListAsync(),
+                EditedNew = await _db.News.FirstOrDefaultAsync(x => x.Id == id),
+                Image = ENew.Image,
+                Title = ENew.Title,
+            };
             if (neVM == null)
             {
+
                 return NotFound();
             }
 
             if (neVM.Photo == null)
             {
-
-                return View(neVM);
+                ModelState.AddModelError("Error", "Select photo!");
+                return View(neVM1);
             }
             if (!neVM.Photo.IsImage())
             {
-
-                return View(neVM);
+                ModelState.AddModelError("Error", "Select image file!");
+                return View(neVM1);
             }
             if (neVM.Photo.IsMore4mb())
             {
-
-                return View(neVM);
+                ModelState.AddModelError("Error", "Photo's max size 4 mb!");
+                return View(neVM1);
             }
             string path = Path.Combine(_env.WebRootPath, @"admin\assets\postimages");
             neVM.Image = await neVM.Photo.SaveImageAsync(path);
@@ -207,6 +220,7 @@ namespace Practice_3.Areas.Admin.Controllers
             var newforreturn =await _db.News.FirstOrDefaultAsync(x=>x.Id==id);
             newforreturn.IsDeactive =false;
             await _db.SaveChangesAsync();
+            ModelState.AddModelError("Success", "Post returned succesfully!");
             return RedirectToAction("Trash", "News");
         }
         public async Task<IActionResult> Delete(int id)
@@ -223,6 +237,7 @@ namespace Practice_3.Areas.Admin.Controllers
             }
              _db.News.Remove(deletenews);
             await _db.SaveChangesAsync();
+            ModelState.AddModelError("Error", "Post has been deleted!");
             return RedirectToAction("Trash", "News");
         }
     }

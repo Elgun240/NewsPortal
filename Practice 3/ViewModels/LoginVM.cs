@@ -9,5 +9,6 @@ namespace Practice_3.ViewModels
         public string Email { get; set; }
         [Required, DataType(DataType.Password)]
         public string Password { get; set; }
+        public bool rememberMe { get; set; }
     }
 }

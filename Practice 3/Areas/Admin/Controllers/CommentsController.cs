@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using Practice_3.DAL;
 using Practice_3.Helpers;
@@ -19,6 +20,14 @@ namespace Practice_3.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Waiting()
         {
+            if (TempData.ContainsKey("Success"))
+            {
+                ModelState.AddModelError("Success", TempData["Success"].ToString());
+            }
+            if (TempData.ContainsKey("Error"))
+            {
+                ModelState.AddModelError("Error", TempData["Error"].ToString());
+            }
             var comments = await _db.Comments.Include(x=>x.News).Where(x=>x.IsApproved==false).ToListAsync();
             return View(comments);
         }
@@ -31,6 +40,7 @@ namespace Practice_3.Areas.Admin.Controllers
             Comment comment = await _db.Comments.FirstOrDefaultAsync(x => x.Id == id);
             comment.IsApproved = true;
             await _db.SaveChangesAsync();
+            TempData["Success"] = "Comment war approved!";
             return RedirectToAction("Waiting", "Comments");
         }
         public async Task<IActionResult> ApprovedComments()
@@ -47,6 +57,7 @@ namespace Practice_3.Areas.Admin.Controllers
             Comment comment = await _db.Comments.FirstOrDefaultAsync(x => x.Id == id);
             comment.IsApproved = false;
             await _db.SaveChangesAsync();
+            TempData["Error"] = "Comment war prohibit!";
             return RedirectToAction("Waiting", "Comments");
         }
         public async Task<IActionResult> Delete(int id)
@@ -58,6 +69,7 @@ namespace Practice_3.Areas.Admin.Controllers
             Comment comment = await _db.Comments.FirstOrDefaultAsync(x => x.Id == id);
             _db.Comments.Remove(comment);
             await _db.SaveChangesAsync();
+            TempData["Error"] = "Comment war deleted!";
             return RedirectToAction("Waiting", "Comments");
         }
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Practice_3.DAL;
 using Practice_3.Models;
@@ -10,6 +11,7 @@ namespace Practice_3.Controllers
     public class NewsController : Controller
     {
         private readonly AppDbContext _db;
+       
         public NewsController(AppDbContext db)
         {
             _db = db;
@@ -28,10 +30,14 @@ namespace Practice_3.Controllers
             {
                 return NotFound();
             }
+            var comments = _db.Comments.Where((x => x.IsApproved == true && x.NewsId == NewsId))
+                                        .Include(c => c.User)
+                                        .ThenInclude(u=>u.ProfilePhoto)
+                                        .ToList();
             NewsVM newsVM = new NewsVM()
             {
                 News = _db.News.Where(x => x.IsDeactive == false).OrderByDescending(x => x.Id).Take(5).ToList(),
-                Comments = _db.Comments.Where(x => x.IsApproved == true).Where(x => x.NewsId == NewsId).ToList(),
+                Comments = comments,
                 New = _db.News.Include(x => x.Category).Include(x => x.SubCategory).Include(x => x.Comments).FirstOrDefault(x => x.Id == NewsId),
                 Categories = _db.Categories.Where(x => x.IsDeactive == false).ToList(),
                 SubCategories = _db.SubCategories.Where(x => x.IsDeactive == false).ToList()

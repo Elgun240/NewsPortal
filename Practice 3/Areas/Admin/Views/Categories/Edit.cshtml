@@ -31,15 +31,25 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <!---Success Message--->
+                            <!---Success Message--->
+                            @if (ViewData.ModelState.ContainsKey("Success"))
+                            {
 
-                            <div class="alert alert-success" role="alert">
-                                <strong>Finished edit!</strong>
-                            </div>
+
+                                <div class="alert alert-success" role="alert">
+                                    <strong>@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</strong>
+                                </div>
+
+                            }
+
 
                             <!---Error Message--->
-                            <div class="alert alert-danger" role="alert">
-                                <strong>Oh snap!</strong>
-                            </div>
+                            @if (ViewData.ModelState.ContainsKey("Error"))
+                            {
+                                <div class="alert alert-danger" role="alert">
+                                    <strong>@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</strong>
+                                </div>
+                            }
                         </div>
                     </div>
                     <div class="row">

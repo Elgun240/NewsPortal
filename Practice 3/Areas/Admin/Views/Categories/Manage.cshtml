@@ -28,12 +28,19 @@
             <!-- end row -->
             <div class="row">
                 <div class="col-sm-6">
+                @if (ViewData.ModelState.ContainsKey("Success"))
+                {
                     <div class="alert alert-success" role="alert">
-                        <strong>Category managing!</strong>
+                        <strong>@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</strong>
                     </div>
+                }
+                @if (ViewData.ModelState.ContainsKey("Error"))
+                {
                     <div class="alert alert-danger" role="alert">
-                        <strong>Oh snap!</strong>
+                        <strong>@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</strong>
                     </div>
+                }
+               
                 </div>
                 <div class="row">
                     <div class="col-md-12">

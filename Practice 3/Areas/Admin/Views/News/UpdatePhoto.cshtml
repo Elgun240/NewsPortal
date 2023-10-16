@@ -30,15 +30,16 @@
 						</div>
                         <!-- end row -->
                         <div class="row">
-                            <div class="col-sm-6">  
-                            <!---Success Message--->   
-                            <div class="alert alert-success" role="alert">
-                            <strong>Finished changing!</strong>
-                            </div>
-                            <!---Error Message--->
-                            <div class="alert alert-danger" role="alert">
-                            <strong>Oh snap!</strong>
-                            </div>
+                            <div class="col-sm-6">
+               
+
+                <!---Error Message--->
+                @if (ViewData.ModelState.ContainsKey("Error"))
+                {
+                    <div class="alert alert-danger" role="alert">
+                        <strong>@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</strong>
+                    </div>
+                }
                                 <div class="row">
                                     <div class="col-md-10 col-md-offset-1">
                                         <div class="p-6">
